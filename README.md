@@ -1,6 +1,6 @@
 # meeting-summary
 
-這是一個最小可用的 Codex Skill demo，用來示範如何把一段會議逐字稿、零散會議筆記或站會更新，整理成結構化的會後摘要。
+這是一個最小可用的Skill demo，用來示範如何把一段會議逐字稿、零散會議筆記或站會更新，整理成結構化的會後摘要。
 
 這個 skill 會把輸入內容整理成：
 
@@ -28,7 +28,9 @@ meeting-summary/
 
 ## 使用方式
 
-安裝這個 skill 後，可以在 Codex 中輸入：
+1. 可以在直接在任意AI agent對話框中輸入 "請幫我安裝這個技能 https://github.com/peterCHT/skill_demo"
+
+2. 安裝這個 skill 後，可以在AI agent中輸入：
 
 ```text
 Use $meeting-summary 整理這段會議筆記：
@@ -64,12 +66,3 @@ Bob 要明天下午前補設計稿。
 
 這個 demo 展示的核心概念是：Skill 不一定要包含複雜工具或程式碼。即使只有一份 `SKILL.md`，也可以把一套固定的工作方式封裝起來，讓 Codex 在類似任務中穩定地按照同一種格式與標準輸出。
 
-## 建議 commit message
-
-```text
-Add meeting summary skill demo
-
-- Add a minimal Chinese Codex skill for meeting note summarization
-- Document the demo purpose, folder structure, and example trigger prompt
-- Include expected output format for easier presentation
-```
